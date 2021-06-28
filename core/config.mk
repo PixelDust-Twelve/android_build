@@ -320,7 +320,7 @@ FIND_LEAVES_EXCLUDES := $(addprefix --prune=, $(SCAN_EXCLUDE_DIRS) .repo .git)
 # be device and hardware independent.
 $(call project-set-path-variant,ril,TARGET_RIL_VARIANT,hardware/ril)
 
-include vendor/potato/config/BoardConfigPotato.mk
+include vendor/pixeldust/config/BoardConfigPD.mk
 
 
 # The build system exposes several variables for where to find the kernel

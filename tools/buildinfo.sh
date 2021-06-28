@@ -55,7 +55,7 @@ if [ -n "$BUILD_THUMBPRINT" ] ; then
   echo "ro.build.thumbprint=$BUILD_THUMBPRINT"
 fi
 
-echo "ro.potato.device=$POTATO_DEVICE"
+echo "ro.pixeldust.device=$PIXELDUST_DEVICE"
 
 echo "# end build properties"
 
